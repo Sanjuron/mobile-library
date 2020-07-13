@@ -14,7 +14,8 @@ function BookScreen({navigation, route}) {
     <Card containerStyle={{padding: 0}}>
     <View style={styles.container}>
       <Image source={{uri :book.img}}
-              style={{width: 200, height: 200,}}
+              style={{width: 400, height: 400,}}
+              resizeMode="contain"
               PlaceholderContent={<ActivityIndicator/>}
               />
       <Text>{book.title}</Text>
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-  },
+      },
 });
 
 export default BookScreen;

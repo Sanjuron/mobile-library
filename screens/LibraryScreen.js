@@ -1,7 +1,7 @@
 import React from "react";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet,View } from "react-native";
 import books from "../datas/books.json";
-import { Input, ListItem } from "react-native-elements";
+import { Input, ListItem, Text } from "react-native-elements";
 
 function LibraryScreen({ navigation, route }) {
   function navigateToBook(item) {
@@ -14,7 +14,7 @@ function LibraryScreen({ navigation, route }) {
 
   return (
     <View style={styles.container}>
-      <Text>Ma bibliothèque</Text>
+      <Text h1 style={styles.title}>Ma bibliothèque</Text>
       <Input placeholder="Entrez un livre"/>
       {/* <ScrollView>{bookList}</ScrollView> */}
       {books.map((item, i) => (
@@ -35,9 +35,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
+    // alignItems: "center",
+    // justifyContent: "center",
   },
+  title: {
+    marginBottom: 10,
+    marginTop: 10,
+  }
 });
 
 export default LibraryScreen;
