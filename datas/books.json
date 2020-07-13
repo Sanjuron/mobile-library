@@ -2,22 +2,28 @@
     {
         "title": "Guerre et Paix",
         "author": "Léon Tolstoï",
-        "description": "Guerres napoléoniennes, Boris, Natacha, Pierre et Marie"
+        "description": "Guerres napoléoniennes, Boris, Natacha, Pierre et Marie",
+        "img": "https://m.media-amazon.com/images/I/516OVn0hpuL.jpg"
+
     },
     {
         "title": "Les Frères Karamazov",
         "author": "Fiodor Dostoïevski",
-        "description": "L'histoire d'un parricide"        
+        "description": "L'histoire d'un parricide", 
+        "img" : "https://images-na.ssl-images-amazon.com/images/I/81A-26isYVL.jpg"      
     },
     {
         "title": "La Parade est passée",
         "author": "Kevin Brownlow",
-        "description": "L'histoire du cinéma muet"        
+        "description": "L'histoire du cinéma muet",
+        "img" : "https://images-na.ssl-images-amazon.com/images/I/41paUt6wITL.jpg"      
     },
     {
         "title": "L'Odyssée",
         "author": "Homère",
-        "description": "Les aventures d'Ulysse, de Télémaque et de Pénélope"        
+        "description": "Les aventures d'Ulysse, de Télémaque et de Pénélope",
+        "img": "https://www.superprof.fr/ressources/wp-content/uploads/2007/01/odyssee-homere.jpg"        
     }
 
 ]
+

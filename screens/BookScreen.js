@@ -1,5 +1,6 @@
 import React from "react";
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import {ActivityIndicator, FlatList, StyleSheet, Text, View } from "react-native";
+import {Card, Image} from "react-native-elements";
 
 function BookScreen({navigation, route}) {
 
@@ -8,14 +9,19 @@ function BookScreen({navigation, route}) {
 
   const book = route.params.item;
 
-  // let bookRender = books.filter(book => item.title === book.title );
 
   return (
+    <Card containerStyle={{padding: 0}}>
     <View style={styles.container}>
+      <Image source={{uri :book.img}}
+              style={{width: 200, height: 200,}}
+              PlaceholderContent={<ActivityIndicator/>}
+              />
       <Text>{book.title}</Text>
       <Text>{book.author}</Text>
       <Text>{book.description}</Text>
     </View>
+    </Card>
   );
 }
 
