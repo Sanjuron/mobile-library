@@ -2,6 +2,7 @@ import React from "react";
 import { ScrollView, StyleSheet,View } from "react-native";
 import books from "../datas/books.json";
 import { Input, ListItem, Text } from "react-native-elements";
+import SearchBar from "../components/SearchBar";
 
 function LibraryScreen({ navigation, route }) {
   function navigateToBook(item) {
@@ -15,7 +16,7 @@ function LibraryScreen({ navigation, route }) {
   return (
     <View style={styles.container}>
       <Text h1 style={styles.title}>Ma bibliothèque</Text>
-      <Input placeholder="Entrez un livre"/>
+      <SearchBar/>
       {/* <ScrollView>{bookList}</ScrollView> */}
       {books.map((item, i) => (
         <ListItem
