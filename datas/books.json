@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Guerre et Paix",
+        "author": "Léon Tolstoï",
+        "description": "Guerres napoléoniennes, Boris, Natacha, Pierre et Marie"
+    },
+    {
+        "title": "Les Frères Karamazov",
+        "author": "Fiodor Dostoïevski",
+        "description": "L'histoire d'un parricide"        
+    },
+    {
+        "title": "La Parade est passée",
+        "author": "Kevin Brownlow",
+        "description": "L'histoire du cinéma muet"        
+    },
+    {
+        "title": "L'Odyssée",
+        "author": "Homère",
+        "description": "Les aventures d'Ulysse, de Télémaque et de Pénélope"        
+    }
+
+]
